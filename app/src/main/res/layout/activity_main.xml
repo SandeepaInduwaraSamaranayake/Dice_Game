@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+
+    <!-- weight attribute is used to distribute extra space among multiple views within a parent layout.
+    When a parent layout has extra space, views with a weight attribute specified will receive a
+    portion of that space based on their weight value. The larger the weight value, the more space the
+    view will receive. -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15sp"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:text="@string/dice_game"
+            android:layout_weight="0.01"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_marginVertical="10sp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/dice"
+            android:contentDescription="@string/welcome_dice"
+            android:layout_weight="0.8"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="10sp"
+            android:layout_weight="0.01">
+
+            <Button
+                android:id="@+id/btnNewGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:padding="15sp"
+                android:text="@string/new_game"/>
+
+            <Button
+                android:id="@+id/btnAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:padding="15sp"
+                android:text="@string/about"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

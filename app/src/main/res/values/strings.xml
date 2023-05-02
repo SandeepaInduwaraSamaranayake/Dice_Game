@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Dice Game</string>
+    <string name="dice_game">Dice Game</string>
+    <string name="new_game">New Game</string>
+    <string name="about">About</string>
+    <string name="welcome_dice">This is a Welcome Dice Image</string>
+    <string name="author_statement">Author Statement</string>
+    <string name="message">I confirm that I understand what plagiarism is and have read and understood the section on Assessment Offences in the Essential Information for Students. The work that I have submitted is entirely my own. Any work from other authors is duly referenced and acknowledged.</string>
+    <string name="my_description">Sandeepa Induwara Samaranayake\nsandeepa.20210302@iit.ac.lk \nIIT ID - 20210302</string>
+    <string name="cancel">Cancel</string>
+    <string name="throw_dice">Throw</string>
+    <string name="score">Score</string>
+    <string name="you">You - 0</string>
+    <string name="computer">Computer - 0</string>
+    <string name="row_1_img_1">Row_1_Img_1</string>
+    <string name="row_1_img_2">Row_1_Img_2</string>
+    <string name="row_1_img_3">Row_1_Img_3</string>
+    <string name="row_2_img_1">Row_2_Img_1</string>
+    <string name="row_2_img_2">Row_2_Img_2</string>
+    <string name="row_3_img_1">Row_3_Img_1</string>
+    <string name="row_3_img_2">Row_3_Img_2</string>
+    <string name="row_4_img_1">Row_4_Img_1</string>
+    <string name="row_4_img_2">Row_4_Img_2</string>
+    <string name="row_4_img_3">Row_4_Img_3</string>
+    <string name="enter_an_target">Enter a Target:</string>
+    <string name="confirm">Confirm</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="you_win">You Win!</string>
+    <string name="close">Close</string>
+    <string name="h_0_c_0">H: 0 / c: 0</string>
+</resources>

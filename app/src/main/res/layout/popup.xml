@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical"
+        android:padding="20sp"
+        android:background="@color/popup_background">
+
+        <TextView
+            android:id="@+id/author_statement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10sp"
+            android:text="@string/author_statement"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10sp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/message"
+            android:textColor="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2sp"
+            android:text="@string/my_description"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:background="@color/purple_200"
+            android:text="@string/cancel"
+            android:layout_gravity="end"
+            android:layout_marginVertical="10sp"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+</LinearLayout>
