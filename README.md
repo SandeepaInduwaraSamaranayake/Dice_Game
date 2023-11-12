@@ -45,7 +45,7 @@ rerolls) the player with the highest score wins.
 
 4. The human player may choose to score by pressing a button Score or take up to two optional rerolls (see below). As soon as the player clicks on Score the total score for the current game should be updated for both the human player and the computer player (also the dice for the computer player should be updated according to the computer player strategy, see below).<br>
 
-5. The current total score for the game (both human and computer) is displayed on the top right of the screen.(You can change the target score by tapping the edit button next to target score)
+5. The current total score for the game (both human and computer) is displayed on the top right of the screen. (You can change the target score by tapping the edit button next to the target score)
 
 <img src="https://github.com/SandeepaInduwaraSamaranayake/Dice_Game/assets/95087710/8bb1df4c-3f2f-44ef-8fdd-6318b1eca85d" style="display: inline-block; width: 40%;" />
 
@@ -61,4 +61,8 @@ rerolls) the player with the highest score wins.
 
 9. When a player (human or computer) reaches 101 or more points a pop up window with the message “You win!” is displayed in green colour (if the human wins) or “You lose” in red colour (if the computer wins). You should implement the exact rules of the game described in the Section “The rules of the game” above.
 
+<img src="https://github.com/SandeepaInduwaraSamaranayake/Dice_Game/assets/95087710/296c96bf-6fd6-40c8-8650-bb173e0fe1ed" style="display: inline-block; width: 40%;" />
 
+10. As soon as a winner is determined, the game is not playable any more. In order to start a new game, the user needs to press the Android “Back” button to move to the initial screen of the application from where a new game can be started by pressing the New Game button.
+11. The 2 players keep rolling until the tie is broken.
+12. when the device is rotated from portrait to landscape and back to portrait mode. I.e. the application resumes from exactly the same point (same screen and data) when the orientation changes. The rotation of the device does not change what the user was seeing before the rotation, and the state of the application, including the score, will be fully restored.
