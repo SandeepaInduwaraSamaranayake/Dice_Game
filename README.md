@@ -34,11 +34,7 @@ rerolls) the player with the highest score wins.
 
 2. Clicking on the About button should present the user with a popup window which describes the author (student id and name) and the message:
 
-I confirm that I understand what plagiarism is and have read and
-understood the section on Assessment Offences in the Essential
-Information for Students. The work that I have submitted is
-entirely my own. Any work from other authors is duly referenced
-and acknowledged.
+"I confirm that I understand what plagiarism is and have read and understood the section on Assessment Offences in the Essential Information for Students. The work that I have submitted is entirely my own. Any work from other authors is duly referenced and acknowledged."
 
 <img src="https://github.com/SandeepaInduwaraSamaranayake/Dice_Game/assets/95087710/ecf11076-a2b4-405d-ab75-bdc9580df1fe" style="display: inline-block; width: 40%;" />
 
