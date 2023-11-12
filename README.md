@@ -30,3 +30,5 @@ rerolls) the player with the highest score wins.
 
 1. When the application starts, it presents the user with 2 buttons labelled New Game, and About.
 
+<img src="https://github.com/SandeepaInduwaraSamaranayake/Dice_Game/assets/95087710/607322d0-052e-4bf1-bf8e-25ce9d44ec5f" style="display: inline-block; width: 50%;" />
+
