@@ -38,5 +38,19 @@ rerolls) the player with the highest score wins.
 
 <img src="https://github.com/SandeepaInduwaraSamaranayake/Dice_Game/assets/95087710/ecf11076-a2b4-405d-ab75-bdc9580df1fe" style="display: inline-block; width: 40%;" />
 
-3. Clicking on the New Game button, the user will be presented with the game screen which they interact with. The screen contains 2 buttons labelled Throw and Score. Each time the Throw button is pressed, a simulation of throwing 5 dice by both the human player and the computer is performed simultaneously:
+3. Clicking on the New Game button, the user will be presented with the game screen which they interact with. The screen contains 2 buttons labelled Throw and Score. Each time the Throw button is pressed, a simulation of throwing 5 dice by both the human player and the computer is performed simultaneously. The images of the five dice rolled by the human player and the five dice rolled by the computer are displayed. Each of the dice images should be selected randomly with an outcome of a number between 1 to 6. Not all of them need be unique, as one roll of 5 dice may result in 6, 1, 4, 4, 2, i.e. the same outcome representing 4 on the face of a die could be generated for two different dice.
 
+<img src="https://github.com/SandeepaInduwaraSamaranayake/Dice_Game/assets/95087710/2614091b-a137-44f6-abc1-95beeb4762dd" style="display: inline-block; width: 40%;" />
+
+4.  The human player may choose to score by pressing a button Score or take up to two optional rerolls (see below). As soon as the player clicks on Score the total score for the current game should be updated for both the human player and the computer player (also the dice for the computer player should be updated according to the computer player strategy, see below).<be>
+
+5. The current total score for the game (both human and computer) is displayed on the top right of the screen.
+
+6. If the user performs the maximum of 3 rolls for that turn, the score is updated automatically without the need to press the Score button (see the rules of the games described
+above).
+
+7.  For each of the 2 optional rerolls, the human player should be able to select (it is left up to you to design the appropriate user interface for this) which dice (if any) he would like to keep for that roll. After selecting this, the human player should press the Throw button again and the dice which have not been selected for keeping should be rerolled.
+
+8. The computer player follows a random strategy. I.e. first it decides randomly whether it would like to reroll (up to a maximum of 3 rolls per time) and if this is the case it decides randomly which dice to keep. A single (first) roll for the computer player occurs and it is displayed only after the human player clicks on the Throw button. If the human player clicks on the Score button, the computer player uses all of its remaining rolls for that turn according to the random strategy, i.e. the final result of the five dice is displayed after the computer has used (optionally based on the random strategy) the 2 rerolls (for a total maximum of 3 rolls).
+
+9. 
